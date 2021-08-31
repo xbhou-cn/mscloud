@@ -10,6 +10,8 @@
     <modules>
         <module>cloud-provider-payment8001</module>
         <module>cloud-common</module>
+        <module>cloud-consumer-order80</module>
+        <module>cloud-eureka-server7001</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -25,6 +27,8 @@
         <mybatis.version>2.1.3</mybatis.version>
         <log4j.version>1.2.17</log4j.version>
         <lombok.version>1.18.14</lombok.version>
+        <hutool.version>5.3.4</hutool.version>
+        <mscloud.common.version>1.0-SNAPSHOT</mscloud.common.version>
     </properties>
 
     <!-- 统一管理引入包的版本，以及不会引入依赖，相当于先声明，由子项目实现 -->
@@ -75,6 +79,11 @@
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>${hutool.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
