@@ -27,7 +27,8 @@
 </build>
 ~~~
 3. idea开启自动编译
-![img.png](img.png)
+img.png![img](https://user-images.githubusercontent.com/47892921/131517713-db815f11-49d1-4909-b8b5-4fc35381db69.png)
 4. `ctrl+shift+Alt+/`然后选择`Registry`
-![img_1.png](img_1.png)
+img_1.png![img_1](https://user-images.githubusercontent.com/47892921/131517781-af57becd-7045-434a-980b-2d3e35cebca9.png)
+
 
